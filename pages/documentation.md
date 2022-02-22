@@ -109,4 +109,4 @@ Or you might give these components a try and start having moments where it 'clic
 In fact with just a single script tag, you can build an entire complex page with just HTML and writing less than 1 kb of CSS. Content Blocks are designed to be fully keyboard accessible, whether the content being displayed is a button launching a fullscreen overlay, an overlay opening an overlay, a button revealing dropdown content launching an overlay with tabs, etc.
 
 ## I have a question / concern - where do I go?
-Please start a new [discussion on Github](https://github.com/contentblocksjs/nextjs-site/discussions)
+Please start a new [discussion on Github](https://github.com/contentblocksdev/nextjs-example/discussions)

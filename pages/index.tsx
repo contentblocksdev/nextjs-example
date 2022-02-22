@@ -89,7 +89,7 @@ const Home: NextPage = () => {
                   <ContentLine max-width="100|560px">
                     <ol>
                       <li><a href="/demos/ecommerce-informational.html" target="_blank">HTML5 Ecommerce Page</a></li>
-                      <li><a href="https://github.com/contentblocksjs/nextjs-site" target="_blank">NextJS Content Blocks Site (React)</a></li>
+                      <li><a href="https://github.com/contentblocksdev/nextjs-example" target="_blank">NextJS Content Blocks Site (React)</a></li>
                     </ol>
                   </ContentLine>
                   
