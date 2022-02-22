@@ -1,0 +1,26 @@
+content-video {
+  max-width: 700px;
+  margin: auto;
+}
+
+.button a {
+  padding: 10px 20px;
+}
+
+.button--dark a {
+  background: black;
+  color: white;
+}
+
+.button--transparent a {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.text--large {
+  font-size: 2rem;
+}
+.text--medium {
+  font-size: 1.5rem;
+}

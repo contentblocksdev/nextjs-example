@@ -1,0 +1,20 @@
+<content-hero-block id="heroContainer">
+  <content-overlay target="#heroContainer" id="contentVideoOverlayPromo" full-screen="false">
+    <script slot="content" type="text/template">
+      <content-video fit-container="true" width="640" height="190" src="https://www.youtube.com/watch?v=5sMBhDv4sik"></content-video>
+    </script>
+  </content-overlay>
+  <content-image slot="background" src="/examples/img_1000x400.jpg"></content-image>
+  <content-text-block slot="content" class="black|white" vertical-alignment="center">
+    <content-spacer horizontal-alignment="left|right" max-width="100|50" text-align="left|center">
+      <content-line class="text--large" >About</content-line>
+      <content-line class="text--medium|text--large">Watch our promotional video</content-line>
+      <content-spacer top-offset="3">
+        <content-button class="button button--dark|button button--transparent" href="#contentVideoOverlayPromo">WATCH NOW</content-button>
+      </content-spacer>
+    </content-spacer>
+  </content-text-block>
+</content-hero-block>
+
+<link rel="stylesheet" href="./style.css">
+<script type="module" src="/vendor/@content-blocks/js/dist/content-blocks/content-blocks.esm.js"></script>

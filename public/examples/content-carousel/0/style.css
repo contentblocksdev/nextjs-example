@@ -1,0 +1,20 @@
+.text-style--faq-header {
+  font-size: 3rem;
+}
+
+p {
+  color: black;
+}
+
+[aria-expanded] {
+  transition: all 1s;
+}
+
+[aria-expanded="true"] {
+  background: #DDDDDD;
+  padding: 20px 20px 40px;
+}
+
+content-carousel {
+  height: auto;
+}

@@ -1,0 +1,19 @@
+<content-button class="button" href="#heroVideoFullscreen">Full Screen Video</content-button>
+<content-button class="button" href="#heroVideoFullscreenMini">Reveal Video</content-button>
+ 
+<content-overlay id="heroVideoFullscreen" full-screen="true">
+  <script slot="content" type="text/template">
+    <content-video autoplay="true" fit-container="true" width="640" height="190" src="https://www.youtube.com/watch?v=5sMBhDv4sik"></content-video>
+  </script>
+</content-overlay>
+
+<div id="containerTarget"></div>
+
+<content-overlay target="containerTarget" id="heroVideoFullscreenMini" full-screen="false">
+  <script slot="content" type="text/template">
+    <content-video width="640" height="190" src="https://www.youtube.com/watch?v=5sMBhDv4sik"></content-video>
+  </script>
+</content-overlay>
+
+<link rel="stylesheet" href="./style.css">
+<script type="module" src="/vendor/@content-blocks/js/dist/content-blocks/content-blocks.esm.js"></script>

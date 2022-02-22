@@ -1,0 +1,7 @@
+content-grid-formatter {
+  column-gap: 60px;
+}
+
+div:not(.extra-wide) {
+  max-width: 40px;
+}

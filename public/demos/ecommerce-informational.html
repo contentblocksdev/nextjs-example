@@ -1,0 +1,276 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+  <head>
+    <title>Ecommerce Informational Theme</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./dist/reset.css">
+    <link rel="stylesheet" href="./dist/ecommerce-informational-theme.css">
+    <script type="module" src="/vendor/@content-blocks/js/dist/content-blocks/content-blocks.esm.js"></script>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <content-text-block class="light-banner">
+        <content-spacer top-offset="8px|12px" top-offset="8px|12px" right-offset="8px|12px" bottom-offset="8px|12px">
+          <content-line text-align="center" class="text-style--offer">Donec ullamcorper nulla non metus auctor fringilla. <content-button class="text-style--link-large" href="#infoOverlay1">LEARN MORE</content-button></content-line>
+        </content-spacer>
+      </content-text-block>
+      <content-overlay id="infoOverlay1" full-screen="false">
+        <script slot="content" type="text/template">
+          <content-spacer left-offset="15px" right-offset="15px" bottom-offset="20px">
+            <content-line class="light">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec sed odio dui.</content-line>
+          </content-spacer>
+        </script>
+      </content-overlay>
+      
+      <content-spacer max-width="250px" horizontal-position="center" text-align="center" left-offset="4" right-offset="4" top-offset="2" bottom-offset="3">
+        <content-image src="/demos/img/logoipsum.svg"></content-image>
+      </content-spacer>
+      
+      <content-text-block class="color-banner">
+        <content-spacer top-offset="8px|12px" top-offset="8px|12px" right-offset="8px|12px" bottom-offset="8px|12px">
+          <content-line text-align="center" class="text-style--large">Sit Ligula Fringilla Lorem Mollis <content-button href="#infoOverlay2" class="text-style--link">Learn More</content-button>
+        </content-spacer>
+      </content-text-block>
+
+      <content-overlay id="infoOverlay2" class="color-overlay">
+        <script slot="content" type="text/template">
+          <content-spacer max-width="100|550px" left-offset="8px|12px" top-offset="8px|12px" right-offset="8px|12px" bottom-offset="8px|12px" horizontal-position="center">
+            <content-text-block>
+              <p>Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <br />
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum. Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </content-text-block>
+          </content-spacer>
+        </script>
+      </content-overlay>
+
+      <content-button href="#heroVideoOverlay" clickable-block="true">
+        <content-hero-block class="main-hero">
+          <content-image slot="background" src="/demos/img/768x400/4.jpeg"></content-image>
+          <content-spacer slot="content" full-height="true" left-offset="4|5|10" right-offset="4" top-offset="4" bottom-offset="4" max-width="100|55" horizontal-position="left">
+            <content-overlay target="#" id="heroVideoOverlay" full-screen="false" class="custom-overlay">
+              <script slot="content" type="text/template">
+                <content-video fit-container="true" src="https://www.youtube.com/watch?v=m43rh-pI0P0"></content-video>
+              </script>
+            </content-overlay>
+            <content-overlay id="heroVideoFullscreen" full-screen="true" class="custom-overlay">
+              <script slot="content" type="text/template">
+                <content-video fit-container="true" autoplay="true" src="https://www.youtube.com/watch?v=9tobL8U7dQo"></content-video>
+              </script>
+            </content-overlay>
+            <content-text-block full-height="false|true" class="light" vertical-alignment="center">
+              <content-line class="text-style--hero-header">Inceptos Commodo Ullamcorper</content-line>
+              <content-line class="text-style--hero-header">Fringilla Venenatis Mattis Egestas Sem.<sup>*</sup></content-line>
+              <content-line class="text-style--hero-subline">Vulputate Commodo Adipiscing Tristique Fusce</content-line>
+              <content-line class="text-style--copy" max-width="100|60|75">Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</content-line>
+              <content-spacer top-offset="3">
+                <content-group horizontal-position="left">
+                  <content-button class="button button--light" href="#heroVideoFullscreen">Full Screen</content-button>
+                </content-group>
+              </content-spacer>
+              <content-text-block slot="footer">
+                <content-line class="text-style--disclosure">Amet Mollis Tristique Parturient Ridiculus</content-line>
+              </content-text-block>
+            </content-text-block>
+          </content-spacer>
+        </content-hero-block>
+      </content-button>
+
+      <content-spacer top-offset="10px|20px" bottom-offset="10px|20px">
+        <content-text-block>  
+          <content-line text-align="center" class="text-style--section-title">Condimentum Magna<span class="trade">™&nbsp;</span></content-line>
+        </content-text-block>
+        <content-spacer horizontal-position="center">
+          <content-grid-formatter class="content-product-grid" type="grid" flex-grow="true" flex-align="flex-start" columns="2|4">
+            <content-tout-block>
+              <content-button href="?test" slot="mediaContent" clickable-block="true">
+                <content-text-block full-height="true" vertical-alignment="bottom">
+                  <content-spacer text-align="left" left-offset="5" right-offset="5">
+                    <content-button href="#" class="button button--light">Quick Shop</content-button>
+                  </content-spacer>
+                </content-text-block>
+              </content-button>
+              <div slot="media">
+                <content-image alt="Test Alt Text" src="/demos/img/165x274/1.jpeg"></content-image>
+              </div>
+              <content-text-block>
+                <content-spacer text-align="center|left">
+                  <content-line class="text-style--tout-promo">
+                    NEW
+                  </content-line>
+                  <content-button href="#">
+                    <content-line class="text-style--tout-title" max-width="80">Cras justo odio, dapibus ac facilisis in, egestas eget quam.</content-line>
+                    <content-line> Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</content-line>
+                  </content-button>
+                  <content-line>$12.00</content-line>
+                </content-spacer>
+              </content-text-block>  
+            </content-tout-block>
+            <content-tout-block>
+              <content-button href="?test" slot="mediaContent" clickable-block="true">
+                <content-text-block full-height="true" vertical-alignment="bottom">
+                  <content-spacer text-align="left" left-offset="5" right-offset="5">
+                    <content-button href="#" class="button button--light">Quick Shop</content-button>
+                  </content-spacer>
+                </content-text-block>
+              </content-button>
+              <div slot="media">
+                <content-image alt="Test Alt Text" src="/demos/img/165x274/2.jpeg"></content-image>
+              </div>
+              <content-text-block>
+                <content-spacer text-align="center|left">
+                  <content-button href="#">
+                    <content-line class="text-style--tout-promo">
+                      NEW
+                    </content-line>
+                    <content-line class="text-style--tout-title" max-width="80">Sed posuere consectetur est at lobortis</content-line>
+                  </content-button>
+                  <content-line> Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</content-line>
+                  <content-line>$37.00</content-line>
+                </content-spacer>
+              </content-text-block>  
+            </content-tout-block>
+            <content-tout-block>
+              <content-button href="?test" slot="mediaContent" clickable-block="true">
+                <content-text-block full-height="true" vertical-alignment="bottom">
+                  <content-spacer text-align="left" left-offset="5" right-offset="5">
+                    <content-button href="#" class="button button--light">Quick Shop</content-button>
+                  </content-spacer>
+                </content-text-block>
+              </content-button>
+              <div slot="media">
+                <content-image alt="Test Alt Text" src="/demos/img/165x274/3.jpeg"></content-image>
+              </div>
+              <content-text-block>
+                <content-spacer text-align="center|left">
+                  <content-button href="#">
+                    <content-line class="text-style--tout-promo">
+                      NEW
+                    </content-line>
+                    <content-line class="text-style--tout-title" max-width="80">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</content-line>
+                  </content-button>
+                  <content-line>Nulla vitae elit libero, a pharetra augue.</content-line>
+                  <content-line>$12.00</content-line>
+                </content-spacer>
+              </content-text-block>  
+            </content-tout-block>
+            <content-tout-block>
+              <content-button href="?test" slot="mediaContent" clickable-block="true">
+                <content-text-block full-height="true" vertical-alignment="bottom">
+                  <content-spacer text-align="left" left-offset="5" right-offset="5">
+                    <content-button href="#" class="button button--light">Quick Shop</content-button>
+                  </content-spacer>
+                </content-text-block>
+              </content-button>
+              <div slot="media">
+                <content-image alt="Test Alt Text" src="/demos/img/165x274/4.jpeg"></content-image>
+              </div>
+              <content-text-block>
+                <content-spacer text-align="center|left">
+                  <content-button href="#">
+                    <content-line class="text-style--tout-promo">
+                      NEW
+                    </content-line>
+                    <content-line class="text-style--tout-title" max-width="80">Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</content-line>
+                  </content-button>
+                  <content-line>Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</content-line>
+                  <content-line>$12.00</content-line>
+                </content-spacer>
+              </content-text-block>  
+            </content-tout-block>
+          </content-grid-formatter>
+        </content-spacer>
+      </content-spacer>
+        
+        <content-spacer top-offset="10px|20px" bottom-offset="10px|20px">
+          <content-hero-block>
+            <content-image slot="background" src="/demos/img/768x400/3.jpeg"></content-image>
+            <content-text-block slot="content" class="color--black|color--white" vertical-alignment="center">
+              <content-spacer left-offset="4" right-offset="20px" top-offset="4" bottom-offset="4" max-width="100|55" horizontal-position="left|right" text-align="left|center">
+                <content-line class="text-style--hero-large-text" max-width="100|50">Purus Tristique</content-line>
+                <content-line class="text-style--hero-header">Mattis Justo Sollicitudin</strong><sup>*</sup></content-line>
+                <content-line class="text-style--copy-small">Tristique Ipsum Purus</content-line>
+                <content-spacer top-offset="3">
+                  <content-button class="button button--dark|button button--transparent" href="#">SHOP NOW</content-button>
+              </content-spacer>
+            </content-spacer>
+          </content-text-block>
+        </content-hero-block>
+      </content-spacer>
+
+      <content-text-block>
+        <content-spacer top-offset="10px|20px" bottom-offset="10px|20px">
+          <content-line text-align="center" class="text-style--hero-header">Sem Inceptos Magna Risus Etiam</content-line>
+          <content-grid-formatter class="benefits-grid" top-offset="8px|12px" top-offset="8px|12px" right-offset="8px|12px" bottom-offset="8px|12px" columns="1|5">
+            <content-tout-block>
+              <content-image slot="background" alt="Test Alt Text" src="/demos/img/250x250/1.jpeg"></content-image>
+              <content-text-block>
+                <content-spacer text-align="center|left">
+                  <content-line max-width="100|90" text-align="center" class="text-style--tout-large-title">cruelty free</content-line>
+                </content-spacer>
+              </content-text-block>  
+            </content-tout-block>
+            <content-tout-block>
+              <content-image slot="background" alt="Test Alt Text" src="/demos/img/250x250/2.jpeg"></content-image>
+              <content-text-block>
+                <content-spacer text-align="center|left">
+                  <content-line max-width="100|90" text-align="center" class="text-style--tout-large-title">vegan</content-line>
+                </content-spacer>
+              </content-text-block>  
+            </content-tout-block>
+            <content-tout-block>
+              <content-image slot="background" alt="Test Alt Text" src="/demos/img/250x250/3.jpeg"></content-image>
+              <content-text-block>
+                <content-spacer text-align="center|left">
+                  <content-line max-width="100|90" text-align="center" class="text-style--tout-large-title">100% wind & solar powered manufacturing<sup>*</sup></content-line>
+                </content-spacer>
+              </content-text-block>  
+            </content-tout-block>
+            <content-tout-block>
+              <content-image slot="background" alt="Test Alt Text" src="/demos/img/250x250/4.jpeg"></content-image>
+              <content-text-block>
+                <content-spacer text-align="center|left">
+                  <content-line max-width="100|90" text-align="center" class="text-style--tout-large-title">Pioneer in 100% PCR bottles<sup>**</sup></content-line>
+                </content-spacer>
+              </content-text-block>  
+            </content-tout-block>
+            <content-tout-block>
+              <content-image slot="background" alt="Test Alt Text" src="/demos/img/250x250/5.jpeg"></content-image>
+              <content-text-block>
+                <content-spacer text-align="center|left">
+                  <content-line max-width="100|90" text-align="center" class="text-style--tout-large-title">Adipiscing Risus Nullam Inceptos Sem<sup>***</sup></content-line>
+                </content-spacer>
+              </content-text-block>  
+            </content-tout-block>
+        </content-grid-formatter>
+        <content-spacer horizontal-position="center" max-width="90" top-offset="2" bottom-offset="2">
+          <content-line class="text-style--disclosure" text-align="center">
+            Etiam porta sem malesuada magna mollis euismod. Nullam quis risus eget urna mollis ornare vel eu leo. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
+          </content-line>
+        </content-spacer>
+      </content-spacer>
+      </content-text-block>
+
+      <content-spacer top-offset="10px|20px" bottom-offset="10px|20px">
+        <content-hero-block>
+          <content-image slot="background" src="/demos/img/768x400/2.jpeg"></content-image>
+          <content-text-block slot="content" class="light" vertical-alignment="center">
+            <content-spacer left-offset="4|5|10" right-offset="4" top-offset="4" bottom-offset="4" max-width="100|55" horizontal-position="left">
+              <content-line class="text-style--hero-header" max-width="100|80">Cum sociis natoque penatibus et magnis dis parturient.</content-line>
+              <content-line class="text-style--hero-subline">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</content-line>
+              <content-line class="text-style--copy">Lorem Pellentesque Vehicula Ornare</content-line>
+              <content-spacer top-offset="3">
+                <content-group horizontal-position="center|left">
+                  <content-button class="button button--teal" href="#">SHOP NOW</content-button>
+                </content-group>
+              </content-spacer>
+            </content-spacer>
+          </content-text-block>
+        </content-hero-block>
+      </content-spacer>
+      
+      <content-video src="https://www.youtube.com/watch?v=XKfgdkcIUxw"></content-video>
+
+    </div>
+  </body>
+</html>

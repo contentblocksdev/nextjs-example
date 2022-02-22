@@ -1,0 +1,10 @@
+.content-product-grid {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.button {
+  color: white;
+  background: black;
+  padding: 4px 10px;
+}

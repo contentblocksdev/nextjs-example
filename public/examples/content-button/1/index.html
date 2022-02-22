@@ -1,0 +1,9 @@
+<content-button class="button" id="clickButton">Click Me!</content-button>
+<link rel="stylesheet" href="./style.css">
+<script type="module" src="/vendor/@content-blocks/js/dist/content-blocks/content-blocks.esm.js"></script>
+<script>
+  let button = document.getElementById('clickButton');
+  button.addEventListener('click', event => {
+    alert('Clicked!');
+  });
+</script>

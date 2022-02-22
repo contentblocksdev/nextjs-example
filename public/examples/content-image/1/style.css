@@ -1,0 +1,5 @@
+content-image video,
+content-image picture {
+  max-height: 400px;
+  margin: auto;
+}

@@ -1,0 +1,16 @@
+.text-style--faq-header {
+  font-size: 3rem;
+}
+
+p {
+  color: black;
+}
+
+content-accordion button[aria-expanded] {
+  transition: all 1s;
+}
+
+content-accordion .tab-button[aria-expanded="true"][aria-controls] {
+  background: #DDDDDD;
+  padding: 20px 20px 40px;
+}
