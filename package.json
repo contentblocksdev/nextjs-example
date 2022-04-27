@@ -11,9 +11,9 @@
     "examples:watch:sass": "npm run examples:build:sass && npm run examples:build:sass -- -w public/demos"
   },
   "dependencies": {
-    "@content-blocks/docs": "0.0.1-alpha.1",
-    "@content-blocks/js": "^0.0.3",
-    "@content-blocks/react": "^0.0.3",
+    "@content-blocks/docs": "^0.1.0",
+    "@content-blocks/js": "^0.1.0",
+    "@content-blocks/react": "^0.1.0",
     "@types/codemirror": "^5.60.5",
     "jotted": "^1.5.2",
     "jquery": "^3.6.0",
