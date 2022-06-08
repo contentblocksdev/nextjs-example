@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es2017",
+    "target": "es6",
     "lib": [
       "dom",
       "dom.iterable",
@@ -26,8 +26,8 @@
     "**/*.tsx"
   ],
   "exclude": [
-    "node_modules",
-    "public",
-    "public_html"
+    "node_modules/",
+    "public/",
+    "public_html/"
   ]
 }
