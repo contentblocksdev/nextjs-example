@@ -1,9 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import DefaultLayout from './layouts/default'
-import styles2 from '../styles/Site.module.scss';
-import { ContentAccordion, ContentButton, ContentGridFormatter, ContentHeroBlock, ContentImage, ContentLine, ContentOverlay, ContentSpacer, ContentTextBlock } from '@content-blocks/react';
+import { ContentButton, ContentGridFormatter, ContentHeroBlock, ContentImage, ContentLine, ContentSpacer, ContentTextBlock } from '@content-blocks/react';
 import { CategoryInterface, contentBlockPageStructureData } from '../globals';
 import Link from 'next/link';
 

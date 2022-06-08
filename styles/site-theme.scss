@@ -115,7 +115,7 @@ footer {
   font-size: 14px;
   margin-bottom: 6px;
 
-  &:before {
+  .content-line__inner:before {
     content: '\2666';
     display: inline-block;
     margin-right: 10px;

@@ -24,7 +24,6 @@ export function NavLink(props: any) {
     }
     if (!foundPathMatch && props.href === '/components') {
       foundPathMatch = allComponentPagePaths.includes(asPath);
-      console.log(asPath);
     }
   }
   if (foundPathMatch) {
